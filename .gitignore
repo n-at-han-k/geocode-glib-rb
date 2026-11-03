@@ -1,0 +1,11 @@
+/.bundle/
+/pkg/
+/target/
+/tmp/
+/vendor/
+
+# `rake compile` installs the built object beside the library, which belongs to this machine's Ruby.
+/lib/geocode_glib/*.so
+/lib/geocode_glib/*.bundle
+/lib/geocode_glib/*.dll
+*.gem
